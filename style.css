@@ -1,0 +1,52 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  background-color: aliceblue;
+}
+
+.canvas {
+  height: 400px;
+  width: 400px;
+  background-color: white;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  margin-bottom: 20px;
+}
+
+.controls_range {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.controls_colors {
+  display: flex;
+  margin-top: 10px;
+}
+
+.controls_color {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  cursor: pointer;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.controls_btns {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.controls_btn {
+  all: unset;
+  background-color: white;
+  cursor: pointer;
+  padding: 5px 10px;
+  width: 80px;
+  text-align: center;
+}
+
+.controls_btn:active {
+  transform: scale(0.9);
+}
