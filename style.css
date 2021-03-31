@@ -51,3 +51,9 @@ body {
 .controls_btn:active {
   transform: scale(0.9);
 }
+
+.current_mode {
+  display: flex;
+  text-align: center;
+  align-items: center;
+}
